@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rafli Yanuar Aldriansyah — Games Commercial &amp; Business Performance</title>
+<meta name="description" content="Portofolio Rafli Yanuar Aldriansyah, Games Commercial Staff di industri Telco &amp; Digital Games, lulusan Sistem Komputer Universitas Gunadarma.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="particleCanvas"></canvas>
+<div class="grain"></div>
+<div class="progress-bar" id="progressBar"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+<button class="scroll-top" id="scrollTop" aria-label="Kembali ke atas">↑</button>
+
+<!-- ============ NAVIGASI ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__seal" aria-label="Kembali ke atas">RY</a>
+    <nav class="nav__links">
+      <a href="#tentang">About</a>
+      <a href="#keahlian">Skills</a>
+      <a href="#proyek-featured">Projects</a>
+      <a href="#proyek">Experience</a>
+      <a href="#pengalaman">Education</a>
+      <a href="#kontak">Contact</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO — "SAMPUL LAPORAN" ============ -->
+<section class="hero" id="top">
+  <!-- Gaming 3D scene: full-width behind hero -->
+  <canvas id="gamingCanvas" aria-hidden="true"></canvas>
+
+  <!-- Floating gaming icons (CSS animated) -->
+  <div class="gaming-icons" aria-hidden="true">
+    <!-- PlayStation symbols -->
+    <span class="gicon gicon--circle"  style="--ix:82%;--iy:18%;--id:0s;   --is:1.1">○</span>
+    <span class="gicon gicon--cross"   style="--ix:88%;--iy:55%;--id:1.2s; --is:0.85">✕</span>
+    <span class="gicon gicon--square"  style="--ix:75%;--iy:72%;--id:2.4s; --is:0.9">□</span>
+    <span class="gicon gicon--tri"     style="--ix:91%;--iy:38%;--id:0.7s; --is:1.0">△</span>
+    <!-- Extra decoratives -->
+    <span class="gicon gicon--ctrl"    style="--ix:70%;--iy:12%;--id:1.8s; --is:0.7">⬡</span>
+    <span class="gicon gicon--star"    style="--ix:93%;--iy:80%;--id:3.1s; --is:0.65">✦</span>
+    <span class="gicon gicon--diamond" style="--ix:65%;--iy:88%;--id:0.4s; --is:0.75">◈</span>
+    <span class="gicon gicon--circle"  style="--ix:60%;--iy:30%;--id:2.9s; --is:0.5">○</span>
+  </div>
+
+  <div class="hero__inner">
+    <div class="hero__badge">● Available for new opportunities</div>
+    <p class="eyebrow">Growth Performance · Gaming Industry Enthusiast</p>
+    <h1 class="hero__name">Rafli Yanuar<br>Aldriansyah</h1>
+    <p class="hero__role">Digital Games Commercial &amp; Telco Industry</p>
+    <p class="hero__intro">
+      Currently working at PT Nuon Digital Indonesia (Subsidiary of Telkom Indonesia), designing and
+      executing Digital Games Project Campaigns across Telco platforms. With a background in
+      Computer System, bridging technical expertise with Commercial Strategy and Sales Performance analysis to driving a Growth-focused Business.
+    </p>
+
+    <div class="ledger" role="list">
+      <div class="ledger__item" role="listitem">
+        <span class="ledger__number" data-count="4" data-suffix="+">0</span>
+        <span class="ledger__label">Years of Experience</span>
+      </div>
+      <div class="ledger__item" role="listitem">
+        <span class="ledger__number" data-count="3">0</span>
+        <span class="ledger__label">Industry Passed</span>
+      </div>
+      <div class="ledger__item" role="listitem">
+        <span class="ledger__number" data-count="24" data-prefix="" data-suffix="">0</span>
+        <span class="ledger__label">AGE</span>
+      </div>
+      <div class="ledger__item" role="listitem">
+        <span class="ledger__number">S1</span>
+        <span class="ledger__label">Computer System</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+
+  <!-- ============ TENTANG ============ -->
+  <section class="section" id="tentang">
+    <div class="section__inner about">
+      <div class="about__frame">
+        <div class="about__portrait" aria-hidden="true">
+          <img src="foto-rafli.jpg" alt="Foto Rafli Yanuar Aldriansyah" onerror="this.parentElement.innerHTML='<span>FOTO</span>'">
+        </div>
+      </div>
+      <div class="about__text">
+        <p class="section__eyebrow">01 — Background</p>
+        <h2 class="section__title">When a hobby with Gaming Industry & expertise in Technology Computer becomes an professional in Digital Games Commercial.</h2>
+        <p>
+          I graduate in <strong>Computer System, Gunadarma University</strong> (IPK 3.4/4.00) where
+          i discovered my passion at the intersection of Technology and Business. I currently work as a
+          <em>Games Commercial Staff</em> in the Telecommunication Industry, planning and executing Digital Games Campaign Projects across Telco Platforms, including web stores and whitelabel stores owned by the company.
+        </p>
+        <p>
+          My responsibilities include managing both Direct Carrier Billing (DCB) and Reseller business areas, collaborating with telecom partner to achieve
+          internal and external transaction targets, and driving new commercial stategies based on games industry trends and sales performance
+          analysis across partner platforms.
+        <div class="about__tags">
+          <span>Performance Business Growth</span>
+          <span>Project Management</span>
+          <span>VAS Digital Product</span>
+          <span>Campaign &amp; Event Executor</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GAMING HUD STRIP ============ -->
+  <div class="hud-strip" aria-hidden="true">
+    <div class="hud-strip__inner">
+      <span class="hud-item"><span class="hud-item__icon">○</span> Supply Inventory</span>
+      <span class="hud-divider">·</span>
+      <span class="hud-item"><span class="hud-item__icon gicon--cross">✕</span> Direct Carrier Billing</span>
+      <span class="hud-divider">·</span>
+      <span class="hud-item"><span class="hud-item__icon gicon--square">□</span> Thematic Campaigns</span>
+      <span class="hud-divider">·</span>
+      <span class="hud-item"><span class="hud-item__icon gicon--tri">△</span> Value Added Services</span>
+      <span class="hud-divider">·</span>
+      <span class="hud-item"><span class="hud-item__icon">⬡</span> Telecommunications Industry</span>
+      <span class="hud-divider">·</span>
+      <span class="hud-item"><span class="hud-item__icon">✦</span> Digital Games</span>
+      <!-- Duplicate for seamless scroll -->
+      <span class="hud-item"><span class="hud-item__icon">○</span> Supply Inventory</span>
+      <span class="hud-divider">·</span>
+      <span class="hud-item"><span class="hud-item__icon gicon--cross">✕</span> Direct Carrier Billing</span>
+      <span class="hud-divider">·</span>
+      <span class="hud-item"><span class="hud-item__icon gicon--square">□</span> Thematic Campaigns</span>
+      <span class="hud-divider">·</span>
+      <span class="hud-item"><span class="hud-item__icon gicon--tri">△</span> Value Added Services</span>
+      <span class="hud-divider">·</span>
+      <span class="hud-item"><span class="hud-item__icon">⬡</span> Telecommunications Industry</span>
+      <span class="hud-divider">·</span>
+      <span class="hud-item"><span class="hud-item__icon">✦</span> Digital Games</span>
+    </div>
+  </div>
+
+  <!-- ============ KEAHLIAN ============ -->
+  <section class="section section--panel" id="keahlian">
+    <div class="section__inner">
+      <p class="section__eyebrow">02 — Skills</p>
+      <h2 class="section__title">Core Competencies</h2>
+
+      <div class="skills">
+        <div class="skills__group">
+          <h3>Experience &amp; Knowledge</h3>
+          <div class="chip-row">
+            <span>Project Campaign Management</span>
+            <span>Decision Making</span>
+            <span>Business Growth</span>
+            <span>Integration Platform</span>
+            <span>Analytical Thinking</span>
+          </div>
+        </div>
+        <div class="skills__group">
+          <h3>Software &amp; Analitik</h3>
+          <ul class="skillbar-list">
+            <li><span>HTML, CSS, JavaScript, PHP (With Bootstrap)</span><div class="skillbar"><i style="--w:78%"></i></div></li>
+            <li><span>Looker Studio &amp; Power BI</span><div class="skillbar"><i style="--w:90%"></i></div></li>
+            <li><span>Google Search Console, Ahrefs &amp; Moz</span><div class="skillbar"><i style="--w:60%"></i></div></li>
+            <li><span>AI Based Console</span><div class="skillbar"><i style="--w:70%"></i></div></li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3>Tools &amp; Platform</h3>
+          <div class="chip-row">
+            <span>Office 365</span>
+            <span>Canva</span>
+            <span>Figma</span>
+            <span>Google Console</span>
+            <span>Adobe Creative Suite</span>
+            <span>iMacros</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-row">
+        <p class="cert-row__label">Sertification &amp; Training</p>
+        <div class="chip-row">
+          <span>Business Presentation Skills — PPM Management (2026)</span>
+          <span>Google Data Analytics — GCC Telkom x Coursera (2025)</span>
+          <span>Google Digital Marketing &amp; E-Commerce — GCC Telkom x Coursera (2025)</span>
+          <span>Network Computer Technician — BNSP RI (2023)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED PROJECTS / CAMPAIGNS ============ -->
+  <section id="proyek-featured">
+    <div class="section__inner">
+      <p class="section__eyebrow">03 — Featured Projects</p>
+      <h2 class="section__title">Campaign & Platform Highlights</h2>
+
+      <div class="projects-filter" role="group" aria-label="Filter proyek">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="dcb">DCB</button>
+        <button class="filter-btn" data-filter="supply">Supply Inventory</button>
+        <button class="filter-btn" data-filter="campaign">Thematic Campaign</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <!-- PROJECT 1: UPOINT.ID -->
+        <article class="project-card" data-category="dcb campaign"
+          data-title="UPOINT.ID — Web Store Games & OTT Product"
+          data-platform="UPOINT.ID · NUON Web Store"
+          data-desc="End-to-end managing of game voucher promotions on UPOINT.ID, the flagship web store for digital game top-up. Covering live content management, pricing strategy, promotional mechanics, and performance tracking across both DCB and Reseller channels."
+          data-metrics='[{"val":"20+","label":"Games Publisher"},{"val":"DCB & Reseller","label":"Integration Sales"},{"val":"Monthly","label":"Campaign Cycle"}]'
+          data-tags="DCB,Reseller,Game Voucher,Web Store,Performance Analysis"
+          data-highlights='["Managed live game title catalog including mobile & PC titles","Coordinated promotional pricing with publisher & telco partners","Analyzed traffic, conversion, and transaction data via Looker Studio","Executed thematic campaigns aligned with game release calendars","Collaborated with Tech Ops for platform integration and uptime"]'
+          data-year="2024–Present">
+          <div class="project-card__thumb">
+            <div class="project-card__thumb-bg" 
+              style="background-image: url('upoint-universal.jpeg');
+                background-size: cover;
+                background-position: center;">
+</div>
+            <span class="project-card__badge badge--dcb">DCB</span>
+          </div>
+          <div class="project-card__body">
+            <p class="project-card__platform">Nuon Digital Platform</p>
+            <h3 class="project-card__title">UPOINT.ID — Web Store Games & OTT Product</h3>
+            <p class="project-card__desc">Flagship Web Store management covering Direct Carrier Billing Game Voucher and OTT Product.</p>
+            <div class="project-card__tags">
+              <span>Direct Top Up</span><span>Voucher Games</span><span>OTT Products</span><span>Entertainment</span>
+            </div>
+            <div class="project-card__footer">
+              <span class="project-card__cta">View Details →</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 2: DUNIA GAMES -->
+        <article class="project-card" data-category="dcb campaign"
+          data-title="Dunia Games — Supply Inventory DCB & Voucher Games"
+          data-platform="Dunia Games · Partner Platform"
+          data-desc="Coordinated Direct Top-Up Games & Voucher campaign on Dunia Games platform, one of Indonesia's largest game marketplace. Focused on promotional bundle execution, and cross-platform content alignment with publisher roadmaps."
+          data-metrics='[{"val":"DTU & Voucher","label":"Channel Type"},{"val":"Seasonal","label":"Promo Mechanic"},{"val":"DTU & Voucher","label":"Supply Inventory"}]'
+          data-tags="Direct Top Up,Voucher Games,Thematic Campaign,Event Coordination,Publisher Coordination"
+          data-highlights='["Negotiated and executed bundle promotional campaigns with Telkomsel","End to end product live in service catalog updates and pricing alignment on Dunia Games","Tracked promo transaction performance and channel contribution","Coordinated with Brandcomm team for campaign creative assets","Reported campaign results to Internal & External stakeholders"]'
+          data-year="2024–Present">
+          <div class="project-card__thumb">
+            <div class="project-card__thumb-bg"  
+            style="background-image: url('dg-bg.jpg.jpeg');
+              background-size: cover;
+              background-position: center;">
+            </div>
+            <span class="project-card__badge badge--reseller">DCB</span>
+          </div>
+          <div class="project-card__body">
+            <p class="project-card__platform">Telkomsel Platform</p>
+            <h3 class="project-card__title">Dunia Games - Direct Top-Up & Voucher Campaign</h3>
+            <p class="project-card__desc">Thematic Campaign execution on Dunia Games Platform for payment Telkomsel & Fintech Payment.</p>
+            <div class="project-card__tags">
+              <span>Direct Top-Up</span><span>Voucher Games</span><span>Bundle Promo</span><span>Performance Analysis</span>
+            </div>
+            <div class="project-card__footer">
+              <span class="project-card__cta">View Details →</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 3: myIM3 -->
+        <article class="project-card" data-category="supply"
+          data-title="myIM3 — In-App Webview & Supply Inventory"
+          data-platform="myIM3 Apps · Indosat Ooredoo Hutchison"
+          data-desc="Managed game voucher content placement and promotional campaign execution within the myIM3 super-app ecosystem. Leveraged DCB (Direct Carrier Billing) payment infrastructure to drive game top-up adoption among IM3 subscribers, coordinating with Indosat Ooredoo Hutchison as the telco partner."
+          data-metrics='[{"val":"DCB & Ewallet","label":"Payment Method"},{"val":"In-Apps","label":"Channel"},{"val":"IOH End User","label":"Segment Target"}]'
+          data-tags="DTU,myIM3,Voucher Games,Super-App,Supply Inventory,Telco Partnership"
+          data-highlights='["Coordinated live game content listing inside myIM3 apps","Managed DCB payment flow integration and issue escalation with Tech Ops","Executed in-app promotional banners and featured placement campaigns","Monitored subscriber transaction data and provided performance insights","Worked closely with IOH commercial team for co-promotional activities"]'
+          data-year="2024–Present">
+          <div class="project-card__thumb">
+            <div class="project-card__thumb-bg"  
+            style="background-image: url('im3-universal.jpeg');
+              background-size: cover;
+              background-position: center;">
+            </div>
+            <span class="project-card__badge badge--dcb">Supply Inventory</span>
+          </div>
+          <div class="project-card__body">
+            <p class="project-card__platform">Indosat Ooredoo Hutchison Platform</p>
+            <h3 class="project-card__title">myIM3 — In-App Webview Games Product Sales</h3>
+            <p class="project-card__desc">Direct Top Up-powered game voucher sales inside the myIM3 super-app, coordinating content placement, campaign mechanics, and telco partnership delivery.</p>
+            <div class="project-card__tags">
+              <span>DCB</span><span>In-App</span><span>myIM3</span><span>IOH Partner</span>
+            </div>
+            <div class="project-card__footer">
+              <span class="project-card__cta">View Details →</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 4: XL Axis Game Token -->
+        <article class="project-card" data-category="supply"
+          data-title="XLAxis Game Token — Telco DCB Channel"
+          data-platform="XLAxis Game Token · Supply Inventory Games"
+          data-desc="Handled game voucher content and campaign operations on XLAxis Game Token platform, a DCB-enabled telco channel by XLAxis. Focused on ensuring live content availability, promotional alignment, and transaction performance monitoring for XL and Axis subscribers."
+          data-metrics='[{"val":"XLS & eWallet payment","label":"Billing Method"},{"val":"XLAxis","label":"Subscriber Base"},{"val":"Telco SuperApps","label":"Channel Type"}]'
+          data-tags="Supply Inventory,XLS Ecosystem,Game Token,Games Vouchers,Subscriber Commerce"
+          data-highlights='["Managed game catalog availability on XLAxis Game Token channel","Coordinated promotional mechanics and pricing with XL commercial team","Monitored DCB transaction performance and subscriber adoption rates","Escalated and resolved platform content issues with Tech Ops team","Prepared performance reports for internal and partner stakeholder review"]'
+          data-year="2024–Present">
+          <div class="project-card__thumb">
+            <div class="project-card__thumb-bg"  
+            style="background-image: url('xls-universal.jpeg');
+              background-size: cover;
+              background-position: center;">
+            </div>
+            <span class="project-card__badge badge--dcb">Supply Inventory</span>
+          </div>
+          <div class="project-card__body">
+            <p class="project-card__platform">XLS Platform</p>
+            <h3 class="project-card__title">XLS Game Token — Telco SuperApps</h3>
+            <p class="project-card__desc">Direct Topup & Voucher content, campaign operations, a telco superapps targeting XLS subscribers ecosysystem.</p>
+            <div class="project-card__tags">
+              <span>Supply Inventory</span><span>XLS Ecosystem</span><span>Game Token</span><span>Telco SuperApps</span>
+            </div>
+            <div class="project-card__footer">
+              <span class="project-card__cta">View Details →</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 5: Thematic Campaign -->
+        <article class="project-card" data-category="supply"
+          data-title="bima+ — Webview superapps Telco 3ID Partner"
+          data-platform="bima+ Apps · TRI INDONESIA (IOH)"
+          data-desc="Designed and executed seasonal thematic campaigns tied to major gaming events, game releases, and Indonesian national holidays with coordinated creative assets, promotional mechanics, and post-campaign performance reporting."
+          data-metrics='[{"val":"H3RO Ecosysystem","label":"Platform Reach"},{"val":"Thematic","label":"Campaign Type"},{"val":"Supply Inventory","label":"Business Method"}]'
+          data-tags="Thematic Campaign,Performance Product Sales,Direct Webview,Game Launch,Seasonal Promo"
+          data-highlights='["Planned campaign calendars aligned with publisher game release schedules","Coordinated creative briefs for visual assets","Executed bundle and discount mechanics across multiple sales channels","Analyzed pre/post campaign performance data for optimization insights","Presented campaign results to telco partner stakeholders"]'
+          data-year="2024–Present">
+          <div class="project-card__thumb">
+            <div class="project-card__thumb-bg"  
+            style="background-image: url('hero-bg.jpg.jpeg');
+              background-size: cover;
+              background-position: center;">
+            </div>
+            <span class="project-card__badge badge--campaign">Supply Inventory</span>
+          </div>
+          <div class="project-card__body">
+            <p class="project-card__platform">TRI INDONESIA (IOH) — PLATFORM</p>
+            <h3 class="project-card__title">bima+ — In-Apps Webview Games Content</h3>
+            <p class="project-card__desc">Direct Top Up-powered game voucher sales inside the bima+ super-app, coordinating content placement, campaign mechanics, and telco partnership delivery.</p>
+            <div class="project-card__tags">
+              <span>Supply Inventory</span><span>In-Apps</span><span>bima+</span><span>Webview Method</span>
+            </div>
+            <div class="project-card__footer">
+              <span>2024 – Present</span>
+              <span class="project-card__cta">View Details →</span>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /projects-grid -->
+    </div>
+  </section>
+
+  <!-- PROJECT MODAL -->
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-label="Project detail">
+    <div class="modal" id="modal">
+      <div class="modal__header">
+        <div>
+          <p class="modal__platform" id="modalPlatform"></p>
+          <h2 class="modal__title" id="modalTitle"></h2>
+        </div>
+        <button class="modal__close" id="modalClose" aria-label="Tutup modal">✕</button>
+      </div>
+      <div class="modal__body">
+        <p class="modal__desc" id="modalDesc"></p>
+        <p class="modal__section-title">Key Metrics</p>
+        <div class="modal__metrics" id="modalMetrics"></div>
+        <p class="modal__section-title">Tech Stack & Focus</p>
+        <div class="modal__tags" id="modalTags"></div>
+        <p class="modal__section-title">Highlights</p>
+        <ul class="modal__highlights" id="modalHighlights"></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ PENGALAMAN KERJA ============ -->
+  <section class="section" id="proyek">
+    <div class="section__inner">
+      <p class="section__eyebrow">04 — Work Experience</p>
+      <h2 class="section__title">Professional Timeline</h2>
+
+      <div class="cases">
+
+        <article class="case">
+          <div class="case__head">
+            <h3>Telco Commercial (Digital Games) — Nuon Digital Indonesia</h3>
+            <span class="case__date">Jan 2024 — Present</span>
+          </div>
+          <p>
+           Planning, develop and executing commercial strategies for game top-up project campaigns with telco partners. Managing end-to-end Game Voucher promotion operations across platforms, as well as analyzing sales performance, traffic data, and consumer behavior to generate actionable insights.
+          </p>
+          <div class="case__ledger">
+            <div><span class="n" data-count="5">0</span><span class="l">Platform Voucher Game</span></div>
+            <div><span class="n">Thematic Campaign & Project Scalling</span><span class="l">Operational Focus</span></div>
+            <div><span class="n">Web Stores DCB &amp; Reseller</span><span class="l">Handled Area</span></div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case__head">
+            <h3>Super Agent Development — Sicepat Ekspres Indonesia</h3>
+            <span class="case__date">Nov 2023 — Jan 2024</span>
+          </div>
+          <p>
+            Acquiring SuperAgent to handle First Mile operations and bring in new customers. Managing SuperAgent's administrative and legal completeness end-to-end, working together with the Operations & Technology team for activation (Go Live) preparation.
+          </p>
+          <div class="case__ledger">
+            <div><span class="n" data-count="4">0</span><span class="l">Customer Segment</span></div>
+            <div><span class="n">First Mile</span><span class="l">Operational Focus</span></div>
+            <div><span class="n">End-to-End</span><span class="l">Activation Cycle</span></div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case__head">
+            <h3>Digital Marketing — EDWIN Indonesia</h3>
+            <span class="case__date">Des 2021 — Okt 2023</span>
+          </div>
+          <p>
+            Developing strategies & promotional activities with the marketing team, acting as a direct communication link with KOL clients, and identifying potential influencers for collaboration or contract renewal. Running product ads on social media and Google Ads (CPC).
+          </p>
+          <div class="case__ledger">
+            <div><span class="n">KOL Management</span><span class="l">Main Focus</span></div>
+            <div><span class="n">Ahrefs &amp; Moz</span><span class="l">SEO Keyword Tools</span></div>
+            <div><span class="n">Google Ads</span><span class="l">Paids Campaign</span></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PENDIDIKAN ============ -->
+  <section class="section section--panel" id="pengalaman">
+    <div class="section__inner">
+      <p class="section__eyebrow">05 — Education</p>
+      <h2 class="section__title">Background Academic</h2>
+
+      <div class="timeline">
+        <div class="timeline__item">
+          <span class="timeline__year">Sept 2019 — Agu 2023</span>
+          <div class="timeline__body">
+            <h4>Bachelor of Computer System — Gunadarma University</h4>
+            <p>Computer Science &amp; Technology Information · IPK 3.4 / 4.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KONTAK ============ -->
+  <section class="section contact" id="kontak">
+    <div class="section__inner contact__inner">
+      <p class="section__eyebrow">06 — Contact</p>
+      <h2 class="section__title">Let's talk about business &amp; Gaming Performance  .</h2>
+      <p class="contact__text">
+        Based in Depok, Indonesia. Open to opportunities in Business Commercial, Project Management or Digital VAS Product.
+      </p>
+      <div class="contact__actions">
+        <a class="btn btn--primary" href="mailto:rflynr28@gmail.com">Kirim Email</a>
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/raafliyanuar/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn--ghost" href="https://wa.me/6281218904404" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Rafli Yanuar Aldriansyah. Carefully put together, like reading a performance report.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
